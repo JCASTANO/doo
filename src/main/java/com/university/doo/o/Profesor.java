@@ -8,5 +8,8 @@ public abstract class Profesor {
         System.out.println("Hola");
     }
 
+    //cada materia tiene su forma de calificar por eso
+    //es mejor usar mas clases para favorecer la o de solid
+    // y la s de solid
     public abstract void calificarEstudiantes();
 }

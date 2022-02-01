@@ -9,6 +9,6 @@ public class ProfesorCanto extends Profesor {
 
     @Override
     public void programar() {
-        throw new RuntimeException("Un profesor de canto no puede programar");
+        throw new UnsupportedOperationException("Un profesor de canto no puede programar");
     }
 }
